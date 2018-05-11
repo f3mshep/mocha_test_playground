@@ -14,7 +14,6 @@ app.get('/', (req, res) => {
 // GET /users
 // Giver users a name and age prop
 app.get('/users', (req, res) => {
-  console.log(users)
   res.send(users)
 });
 
